@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #2f2e2e;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: 'Muli', sans-serif;
+  font-weight: lighter;
+}
+
+header img {
+  width: 145.1px;
+  height: 122.2px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 185px;
+}
+
+.banner-top {
+  height: 125px;
+  width: 100%;
+  background-color: #242323;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  letter-spacing: 3px;
+  font-weight: lighter;
+  font-size: 2.5em;
+}
+
+h1 span {
+  color: #c3d830;
+}
+
+.main {
+  width: 800px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-column, .right-column {
+  width: 370px;
+  /* border: 2px solid red; */
+}
+
+h2 {
+  font-weight: lighter;
+  letter-spacing: 2px;
+  font-size: 1.8em;
+  margin-bottom: 25px;
+  padding-left: 5px;
+}
+
+label {
+  display: block;
+  margin: 20px 0 10px 0;
+  font-size: 1em;
+  letter-spacing: 1px;
+}
+
+.label2 {
+  margin: 0 10% 0 0;
+  display: inline-block;
+}
+
+.input2 {
+  width: 5%;
+}
+
+input {
+  width: 100%;
+  height: 25px;
+}
+
+input::placeholder {
+  font-style: italic;
+}
+
+button {
+  width: 100%;
+  height: 50px;
+  margin-top: 50px;
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, 0);
+  color: #c3d830;
+  font-size: 1.5em;
+  letter-spacing: 3px;
+}
+
+button:hover {
+  background-color: #c3d830;
+  color: white;
+}
+
+p {
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 1.2em;
+  padding-bottom: 25px;
+}
+
+h3 {
+  display: inline-block;
+  letter-spacing: 4px;
+  font-size: 2.2em;
+  margin: 0 15px;
+}
+
+#s1 {
+  color: #c3d830;
+}
+
+#s2 {
+  color: #9dbf3c;
+}
+
+#s3 {
+  color: #82a53e;
+}
+
+.heading {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.heading img {
+  transform: rotate(180deg);
+}
+
+h4 {
+  letter-spacing: 2px;
+  font-size: 1.3em;
+  font-weight: 300;
+  padding-bottom: 30px;
+}
+
+h5 {
+  letter-spacing: 2.5px;
+  font-size: 1.5em;
+  line-height: 1.3em;
+  margin-top: 100px;
+}
+
+h5 a {
+  color: #c3d830;
+  text-decoration: none;
+  font-size: 1.6em;
+}
