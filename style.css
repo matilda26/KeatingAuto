@@ -182,6 +182,7 @@ h5 a {
   body {
     width: 100%;
     font-size: 12px;
+    text-align: center;
   }
   .right-column, .left-column {
     width: 100%;
