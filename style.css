@@ -49,6 +49,7 @@ h1 span {
   margin: 50px auto;
   display: flex;
   justify-content: space-between;
+  flex-direction: row-reverse;
 }
 
 .left-column, .right-column {
@@ -159,4 +160,43 @@ h5 a {
   color: #c3d830;
   text-decoration: none;
   font-size: 1.6em;
+}
+.more-info-mob {
+  display: none;
+}
+.more-info {
+  display: block;
+}
+
+@media screen and (max-width: 450px) {
+  .main {
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    flex-wrap: wrap;
+    width: 80%;
+  }
+  h1 {
+    text-align: center;
+  }
+  body {
+    width: 100%;
+    font-size: 12px;
+  }
+  .right-column, .left-column {
+    width: 100%;
+  }
+  .more-info {
+    display: none;
+  }
+  .more-info-mob {
+    display: block;
+  }
+  h2 {
+    margin-top: 20px;
+  }
+  h5 {
+    margin-top: 20px;
+    text-align: center;
+  }
 }
